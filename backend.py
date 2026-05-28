@@ -45,6 +45,7 @@ def rps ():
             p += 1
     else:
         print("That's not a move")
+        rps()
 
     return c, p
 
@@ -82,6 +83,7 @@ def game ():
     else:
         print("what")
         print("I guess that's a no...")
+        input()
 
 
 
@@ -93,7 +95,11 @@ resp = input()
 if resp == "Y" or resp == "y":
     game()
 elif resp == "N" or resp == "n":
-    print("Okay!")
+    print("Then why did you open this?")
+    input()
+    print("umm okay...")
+    input()
 else:
     print("what")
     print("I guess that's a no...")
+    input()
