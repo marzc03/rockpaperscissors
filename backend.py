@@ -45,7 +45,7 @@ def rps ():
             p += 1
     else:
         print("That's not a move")
-        rps()
+        c, p = rps()
 
     return c, p
 
@@ -80,6 +80,7 @@ def game ():
         print("Oh okay :(")
         print("that's so sad")
         print("goodbye I guess")
+        input()
     else:
         print("what")
         print("I guess that's a no...")
