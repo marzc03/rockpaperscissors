@@ -72,15 +72,16 @@ def game ():
 
     print("Would you like to play again? Y/N")
     resp = input()
-    if resp == "Y":
+    if resp == "Y" or resp == "y":
         print("Yay!")
         game()
-    elif resp == "N":
+    elif resp == "N" or resp == "n":
         print("Oh okay :(")
         print("that's so sad")
         print("goodbye I guess")
     else:
         print("what")
+        print("I guess that's a no...")
 
 
 
@@ -89,9 +90,10 @@ print("***********************************************")
 print("**************ROCK PAPER SCISSORS**************")
 print("Would you like to play rock paper scissors? Y/N")
 resp = input()
-if resp == "Y":
+if resp == "Y" or resp == "y":
     game()
-elif resp == "N":
+elif resp == "N" or resp == "n":
     print("Okay!")
 else:
     print("what")
+    print("I guess that's a no...")
